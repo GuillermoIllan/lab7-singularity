@@ -1,0 +1,69 @@
+ejecutando hostname en ibsen
+ibsen
+ejecuntado hostname en my-python.sif
+ibsen
+
+ejecutando cat en ibsen
+NAME="CentOS Linux"
+VERSION="8 (Core)"
+ID="centos"
+ID_LIKE="rhel fedora"
+VERSION_ID="8"
+PLATFORM_ID="platform:el8"
+PRETTY_NAME="CentOS Linux 8 (Core)"
+ANSI_COLOR="0;31"
+CPE_NAME="cpe:/o:centos:centos:8"
+HOME_URL="https://www.centos.org/"
+BUG_REPORT_URL="https://bugs.centos.org/"
+
+CENTOS_MANTISBT_PROJECT="CentOS-8"
+CENTOS_MANTISBT_PROJECT_VERSION="8"
+REDHAT_SUPPORT_PRODUCT="centos"
+REDHAT_SUPPORT_PRODUCT_VERSION="8"
+
+ejecutando cat en my-python.sif
+PRETTY_NAME="Debian GNU/Linux 11 (bullseye)"
+NAME="Debian GNU/Linux"
+VERSION_ID="11"
+VERSION="11 (bullseye)"
+VERSION_CODENAME=bullseye
+ID=debian
+HOME_URL="https://www.debian.org/"
+SUPPORT_URL="https://www.debian.org/support"
+BUG_REPORT_URL="https://bugs.debian.org/"
+
+ejecutando pwd en ibsen
+/home/alumno22/lab7-singularity/singularity
+ejecuntado pwd en my-python.sif
+/home/alumno22/lab7-singularity/singularity
+
+ejecutando ls en ibsen
+total 467668
+-rwxrwxr-x. 1 alumno22 alumno22       865 dic 30 01:28 manejando_singularity.sh
+-rwxrwxr-x. 1 alumno22 alumno22 478883840 dic 30 00:58 my-python.sif
+-rw-rw-r--. 1 alumno22 alumno22       991 dic 30 01:29 output_manejando_singularity.txt
+ejecutando ls en my-python.sif
+total 467668
+-rwxrwxr-x. 1 alumno22 alumno22       865 Dec 30 01:28 manejando_singularity.sh
+-rwxrwxr-x. 1 alumno22 alumno22 478883840 Dec 30 00:58 my-python.sif
+-rw-rw-r--. 1 alumno22 alumno22      1272 Dec 30 01:29 output_manejando_singularity.txt
+
+ejecutando python -version en ibsen
+Python 3.8.5
+ejecutando python -version en my-python.sif
+Python 3.7.16
+
+ejecutando ipython en ibsen
+[22;0t]0;IPython: lab7-singularity/singularityStart
+Number of generated k-mers: 268435456
+
+741 ms ± 545 µs per loop (mean ± std. dev. of 2 runs, 1 loop each)
+
+Finish!
+ejecutando ipython en my-python.sif
+[22;0t]0;IPython: lab7-singularity/singularityStart
+Number of generated k-mers: 268435456
+
+752 ms ± 2.65 ms per loop (mean ± std. dev. of 2 runs, 1 loop each)
+
+Finish!
